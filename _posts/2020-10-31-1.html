@@ -4,9 +4,12 @@ title: A minha primeira publicação
 date: 2020-10-31
 permalink: "1"
 ---
-<p>
-  Esta é a minha primeira publicação. Que te parece?
-</p>
+<article>
+  <h1>{{ page.title }}</h1>
+
+  <p>
+    Que te parece?
+  </p>
 
 {% highlight ruby %}
 class Hello
@@ -19,3 +22,4 @@ Hello.new.print
 
 # Some more code
 {% endhighlight %}
+</article>
