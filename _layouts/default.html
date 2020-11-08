@@ -1,28 +1,25 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang }}">
+<html class="bg-red" lang="{{ page.lang | default: site.lang }}">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+    <link rel="stylesheet" href="{{ "/assets/css/tachyons.min.css" | relative_url }}">
     <link rel="stylesheet" href="{{ "/assets/css/pygments-css/monokai.css" | relative_url }}">
   </head>
 
   <body>
-
-    <header class="site-header" role="banner">
+    <header role="banner">
     </header>
 
-    <main class="page-content" aria-label="Content">
-      <div class="wrapper">
+    <main class="mw8 center pa3 bg-yellow" aria-label="Content">
+      <div>
         {{ content }}
       </div>
     </main>
 
-    <footer class="site-footer">
+    <footer>
     </footer>
-
   </body>
-
 </html>
