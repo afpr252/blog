@@ -1,16 +1,23 @@
 ---
 layout: default
-title: Um título qualquer para a página inicial
 ---
-<h1>{{ page.title }}</h1>
+<h1>{{ site.title }}</h1>
 
 <div>
+  {% for num in (1..9) %}
+  <p>
+    <span>202{{- num }}</span>
+    <a class="pl1" href="{{ "banana" }}">
+      A minha {{ num }} mais texto bla publicação
+    </a>
+  </p>
+  {% endfor %}
   {% for post in site.posts %}
   <p>
-    <a href="{{ post.url | relative_url }}">
+    <span>{{ post.date | date: "%Y" }}</span>
+    <a class="pl1" href="{{ post.url | relative_url }}">
       {{ post.title -}}
     </a>
-    <span> - {{ post.date | date: "%Y" }}</span>
   </p>
   {% endfor %}
 </div>
