@@ -1186,7 +1186,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .bg-lightest-blue { background-color: #cdecff; }
 .bg-washed-blue { background-color: #f6fffe; }
 .bg-washed-green { background-color: #e8fdf5; }
-.bg-washed-yellow { background-color: #ffffd0; }
+.bg-washed-yellow { background-color: #fff0d0; }
 .bg-washed-red { background-color: #ffdfdf; }
 .bg-inherit { background-color: inherit; }
 /* 
