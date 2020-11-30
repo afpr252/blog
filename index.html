@@ -7,15 +7,6 @@ layout: default
 </header>
 
 <main aria-label="Content">
-  {% for num in (1..9) %}
-  <p>
-    <span>202{{- num }}</span>
-    <a class="pl1" href="{{ "banana" }}">
-      A minha {{ num }} mais texto bla publicação
-    </a>
-  </p>
-  {% endfor %}
-
   {% for post in site.posts %}
   <p>
     <span>{{ post.date | date: "%Y" }}</span>
