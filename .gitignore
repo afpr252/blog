@@ -4,3 +4,4 @@ _site
 .jekyll-cache
 **/.DS_Store
 todo.txt
+notes.txt
