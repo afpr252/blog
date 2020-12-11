@@ -1,0 +1,7 @@
+{% assign path_with_name = page.asset_path | append: "/" | append: include.name %}
+<figure>
+  <picture>
+    <source srcset="{{ path_with_name | append: ".jpg" | relative_url }}" type="image/jpeg">
+    <img src="{{ "/assets/posts/2020-11-30-porque-vivo-no-montijo/1.jpg" | relative_url }}" alt="">
+  </picture>
+</figure>
