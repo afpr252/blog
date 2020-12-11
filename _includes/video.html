@@ -1,0 +1,6 @@
+{% assign path_with_name = page.asset_path | append: "/" | append: include.name %}
+<figure>
+  <video width="100%" controls>
+    <source src="{{ path_with_name | append: ".mp4" | relative_url }}" type="video/mp4">
+  </video>
+</figure>
