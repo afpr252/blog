@@ -10,9 +10,10 @@ layout: default
   {% for post in site.posts %}
   <p>
     <span>{{ post.date | date: "%Y" }}</span>
-    <a class="pl1" href="{{ post.url | relative_url }}">
+    <a class="pl1" href="{{ post.url | relative_url }}" lang="{{ post.lang }}">
       {{ post.title -}}
     </a>
+    <span class="ttu pl1">{{ post.lang -}}
   </p>
   {% endfor %}
 </main>
