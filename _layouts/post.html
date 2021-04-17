@@ -4,6 +4,8 @@ layout: default
 <article itemscope itemtype="http://schema.org/BlogPosting">
   <header>
     <h1 itemprop="name headline">{{ page.title }}</h1>
+
+    <p class="black-70">Publicado em {{ page.date | date: "%Y" }}.</p>
   </header>
 
   <div itemprop="articleBody">
