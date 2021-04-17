@@ -4,6 +4,7 @@
 # Site settings
 baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "https://fury252.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+author: "André Rodrigues"
 lang: pt
 title: "Porque não?"
 description: Um espaço onde partilho o que pode ser útil para outros.
@@ -25,3 +26,4 @@ description: Um espaço onde partilho o que pode ser útil para outros.
 exclude:
   - Gemfile
   - Gemfile.lock
+  - LICENSE
