@@ -25,4 +25,3 @@ description: Um espaço onde partilho o que pode ser útil para outros.
 exclude:
   - Gemfile
   - Gemfile.lock
-  - shell.nix
