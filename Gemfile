@@ -26,3 +26,5 @@ gem "wdm", "~> 0.1.0" if Gem.win_platform?
 
 # Ruby 3 no longer includes webrick by default and Jekyll isn't requiring it by default.
 gem "webrick"
+
+gem "jekyll-sitemap"

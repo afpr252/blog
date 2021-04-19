@@ -10,7 +10,8 @@ title: "Porque não?"
 description: Um espaço onde partilho o que pode ser útil para outros.
 
 # Build settings
-# plugins:
+plugins:
+  - jekyll-sitemap
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
