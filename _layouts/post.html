@@ -1,9 +1,11 @@
 ---
 layout: default
 ---
-<nav class="pv4 f5 bb">
-  <a href="{{ '/' | relative_url }}" class="link mid-gray hover-black">All posts</a>
+<nav class="pt4">
+  <a href="{{ '/' | relative_url }}" class="f5 link mid-gray underline-hover">All posts</a>
 </nav>
+
+<p class="bb mv4" />
 
 <article itemscope itemtype="http://schema.org/BlogPosting">
   <header>
@@ -16,3 +18,13 @@ layout: default
     {{ content }}
   </div>
 </article>
+
+<p class="bb mv4" />
+
+<footer class="center">
+  <p>
+    The <a href="https://github.com/fury252/blog">code</a> that powers this blog is licensed under <a href="https://opensource.org/licenses/MIT">the MIT license</a>.
+    The content, authored by {{ site.author | split: " " | join: "&nbsp;" }}, is licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA</a>.
+  </p>
+</footer>
+
