@@ -1,11 +1,15 @@
 ---
 layout: default
 ---
+<nav class="pv4 f5 bb">
+  <a href="{{ '/' | relative_url }}" class="link mid-gray hover-black">Todas as publicações</a>
+</nav>
+
 <article itemscope itemtype="http://schema.org/BlogPosting">
   <header>
     <h1 itemprop="name headline">{{ page.title }}</h1>
 
-    <p class="black-70">Publicado em {{ page.date | date: "%Y" }}.</p>
+    <p class="mid-gray">Publicado em {{ page.date | date: "%Y" }}.</p>
   </header>
 
   <div itemprop="articleBody">
