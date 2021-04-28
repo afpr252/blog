@@ -7,31 +7,38 @@ permalink: software-qualities
 ---
 
 <p>
-  I've found myself in many situations where I am either reviewing mine or someone else's code and I keep thinking that I am probably not considering something that I should.
-  I also try to make my company develop better software and there's probably a lot more stuff we could do but I can't remember of more.
-  These events made me start investigating what makes software good.
-  I organized all my knowledge and all I could find about software qualities in one place that I could regularly check to ensure I'm not forgetting about something.
+  I've found myself in many situations where I am either reviewing my own or someone else's code and I keep thinking that I am probably not considering something that I should.
+  I also try to help my company develop better software and there's probably a lot more stuff we could do but I can't think of any.
+  These events led me to investigate what makes software great.
+  I organized all my knowledge and all I could find about software qualities in one place that I could regularly check to ensure I'm not forgetting something.
   This is that place.
 </p>
 
 <p>
-  In this post I try to explain what each quality is about.
+  In this post I will try to explain what each quality is about.
   These are the qualities I'm most familiar with as a professional software engineer.
   My experience mainly consists on developing and maintaining a private equity marketplace, accessible via web applications.
   In total I've got <em>11</em> qualities.
-  They are, in no particular order: correctness, availability, efficiency, security, maintainability, adaptability, usability, usefulness, stability, community and support, and good price.
-  Depending on where you consult, each standards commitee has its own list of qualities, all of which I found too narrow as they mainly focused on requirements specification and implementation and didn't consider qualities such as usefulness, good price, and others, which I find essential for software to be considered good.
+  They are, in no particular order: correctness, availability, efficiency, security, maintainability, adaptability, usability, usefulness, stability, community and support, and pricing.
+  Depending on where you consult, each standards commitee has its own list of qualities, all of which I found too narrow as they mainly focused on requirements specification and implementation and didn't consider qualities such as usefulness, pricing, and others, which I find essential for software to be considered good.
   If you want to learn more about what others think of this matter, I found <a href="https://en.wikipedia.org/wiki/Software_quality">the Wikipedia article</a> a good starting point.
 </p>
 
 <p>
   There's an infinite amount of things one can do to improve each quality.
-  It's so much that each quality tends to have a specific role that large organizations hire for.
-  In this post I also try to provide a small list of suggestions for each quality, highly based on my experience, which should let you get started.
+  There's so much that large organizations tend to hire severals specialists to focus on just one.
+  In this post I will also try to provide a small list of suggestions for each quality, highly based on my experience, which should let you get started.
+</p>
+
+<p>
+  This article will not explain why you should (or should not) follow each of my suggestions.
+  It just lists them.
+  I recommend searching for the suggestion in the Internet to learn more about it.
+  This article will also not explain which metrics you should monitor to understand how you're doing in a given quality.
 </p>
 
 <h3>How can you improve any quality?</h3>
-<p>There is, however, a small list of suggestions I find applicable to improve any quality, which are:</p>
+<p>There is a small list of suggestions I find applicable to improve any quality, which are:</p>
 
 <ul>
   <li>Build, measure, learn, prioritize, repeat.</li>
@@ -54,7 +61,7 @@ permalink: software-qualities
   <li><a href="#usefulness">Usefulness</a></li>
   <li><a href="#stability">Stability</a></li>
   <li><a href="#community-and-support">Community and Support</a></li>
-  <li><a href="#good-price">Good price</a></li>
+  <li><a href="#pricing">Pricing</a></li>
 </ol>
 
 <h2 id="correctness">1. Correctness</h2>
@@ -98,8 +105,8 @@ permalink: software-qualities
 
 <h3>Avoid bugs with automation</h3>
 <ul>
-  <li>Consider using statically-typed programming languages.</li>
-  <li>Consider using programming languages with garbage collection.</li>
+  <li>Use statically-typed programming languages.</li>
+  <li>Use programming languages with garbage collection.</li>
 </ul>
 
 <h3>Concurrency</h3>
@@ -139,12 +146,12 @@ permalink: software-qualities
 
 <h3>Avoid failures</h3>
 <ul>
-  <li>Consider using a job system that allows you to run code in the background and where jobs are retried when they fail.</li>
+  <li>Use a job system that allows you to run code in the background and where jobs are retried when they fail.</li>
   <li>Test how your software performs under stress.</li>
   <li>Simulate failures (using tools like <a href="https://netflix.github.io/chaosmonkey/">Chaos Monkey</a>).</li>
   <li>Do post-mortems when there are incidents.</li>
   <li>Understand how your software is deployed. Your code might be causing down-time.</li>
-  <li>Consider using infrastructure in the cloud over on-premise. It enables auto-scaling.</li>
+  <li>Use infrastructure in the cloud over on-premise. It enables auto-scaling.</li>
 </ul>
 
 <h3>Detect failures</h3>
@@ -480,7 +487,7 @@ permalink: software-qualities
   <li>Monitor how many users have been helped over time.</li>
 </ul>
 
-<h2 id="good-price">11. Good price</h2>
+<h2 id="good-price">11. Pricing</h2>
 
 <p>
   Software is said to have a good price when users are happy to pay for that price to be able to use your software.
